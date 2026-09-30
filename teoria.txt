@@ -1,0 +1,29 @@
+1. O que significa polimorfismo?
+Polimorfismo é a capacidade de uma mesma operação (mesmo método) apresentar comportamentos diferentes dependendo do objeto real que a executa.
+
+2. Qual é a função da palavra-chave virtual?
+Indica que um método da classe base possui uma implementação padrão, mas pode ser sobrescrito pelas classes derivadas.
+
+3. Qual é a função da palavra-chave override?
+Indica que a classe derivada está substituindo a implementação do método herdado da classe base.
+
+4. O que acontece quando chamamos um método sobrescrito através de uma referência da classe base?
+O programa executa a implementação do tipo real do objeto, não a da classe base, mesmo a variável sendo declarada como o tipo base. Isso é o polimorfismo em ação.
+
+5. Qual é a diferença entre implementar uma interface e herdar de uma classe?
+Herdar representa uma relação de especialização ("é um"), reaproveitando a implementação da classe base. Implementar uma interface representa apenas um contrato/capacidade, sem herdar implementação, podendo pertencer a hierarquias diferentes.
+
+6. Por que uma classe abstrata não pode ser instanciada?
+Porque ela é incompleta por definição: pode conter métodos abstratos sem implementação, que só fazem sentido quando implementados pelas classes concretas derivadas.
+
+7. Qual é a diferença entre um método concreto e um método abstrato?
+Um método concreto possui implementação (corpo) e pode ser usado diretamente. Um método abstrato só declara a assinatura, sem corpo, e obriga as classes derivadas concretas a implementá-lo.
+
+8. Qual é a diferença entre virtual e abstract?
+virtual possui implementação padrão e a sobrescrita é opcional. abstract não possui implementação e a sobrescrita é obrigatória em toda classe concreta derivada.
+
+9. Por que uma List<Funcionario> pode armazenar objetos Gerente e Programador?
+Porque Gerente e Programador herdam de Funcionario, ou seja, "são um" Funcionario, então podem ser armazenados em uma lista do tipo da classe base.
+
+10. Qual é a principal vantagem de utilizar polimorfismo em sistemas maiores?
+Evitar estruturas condicionais (if/else) para tratar cada tipo separadamente, deixando o código mais fácil de manter e estender: basta criar uma nova classe derivada sem alterar o código existente.
