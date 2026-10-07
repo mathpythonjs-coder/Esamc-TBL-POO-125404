@@ -1,0 +1,21 @@
+25 - Qual regra pode ser quebrada?
+O saldo pode ficar negativo ou mudar sem passar por depósito/saque.
+Como impedir a alteração externa?
+Trocar para { get; private set; }.
+Como o Depositar() continua alterando?
+Porque está dentro da classe, e o private set permite alteração interna.
+Quando get; set; público é aceitável?
+Quando o dado não tem regra, tipo Email ou Telefone.
+
+26- Nome de uma pessoa	Propriedade
+Saldo de uma conta	Propriedade
+Depositar dinheiro	Método
+Sacar dinheiro	Método
+Preço de um produto	Propriedade
+Calcular frete	Método
+Altura de um retângulo	Propriedade
+Calcular área	Método
+Ativar usuário	Método
+Usuário está ativo?	Propriedade
+
+2

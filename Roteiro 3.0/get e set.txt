@@ -1,0 +1,3 @@
+📌 get = ler | set = alterar
+
+pessoa.Nome = "Ana"; → value vale "Ana"

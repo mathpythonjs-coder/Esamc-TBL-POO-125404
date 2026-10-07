@@ -1,0 +1,19 @@
+Encapsulamento - Proteger os atributos pra ninguém mexer neles diretamente. Só dá pra alterar através de métodos, que validam antes, mostrar apenas o nescessario.
+
+public → qualquer parte do código acessa
+private → só a própria classe acessa
+
+private	só a própria classe
+public	todo mundo
+protected	a classe e as filhas (herança)
+internal	só dentro do mesmo projeto
+
+
+Get = pegar. Você lê o valor, mas não consegue mudar.
+
+
+public class Produt{
+    public static void Main(){
+        
+    }
+}

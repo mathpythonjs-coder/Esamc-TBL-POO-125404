@@ -1,0 +1,6 @@
+Abstração -P egar do mundo real só o que importa pro sistema e ignorar o resto.
+Classe - É o Molde
+Objeto - a coisa criada pela classe.
+Atributos - São as caracteristicas do OBJETOS.
+Métodos - As ações do Objetos, oque ele faz
+Parâmetro - é uma informação que você manda para o método na hora de chamar ele, o método recebe esse valor e usa ele lá dentro.
